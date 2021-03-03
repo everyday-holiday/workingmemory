@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+body *, ::before, ::after {
+  box-sizing: border-box;
+  /*border:2px solid black;*/
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  /*font-family: 'M PLUS 1p', sans-serif;*/
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.container {
+  width: 75%;
+  margin:0 auto;
+}
+
+h1 {
+  color: white;
+  background-color: #ff7979;
+  font-size:60px;
+  padding:40px 20px 20x 20px;
+  margin-top: 30px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.allwrap {
+  display: flex;
+  height: 400px;
+}
+
+.start_message {
+  display: block;
+}
+
+.center_contents {
+  margin: 0 auto;
+  display: none;
+}
+
+.center_contents2 {
+  display: none;
+}
+
+
+.text_1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text_2 {
+  font-size:19px;
+  font-weight: bold;
+}
+
+#game_start_text {
+  display: none;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+#mondai_count {
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.btn_box {
+  margin-top:85px;
+}
+
+.btn_box2 {
+  display: block;
+  margin-top:85px;
+}
+
+
+
+#btn {
+  display: inline-block;
+  padding:20px;
+  font-weight: bold;
+  font-size: 30px;
+  color:white;
+  background-color:#3dc1d3 ;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom:solid 7px #2d3436 ;
+  font-family: 'Amatic SC', cursive;
+}
+
+#btn1,#btn2,#btn3,#btn4,#btn5 {
+  display: inline-block;
+  padding:20px;
+  margin-right:10px;
+  font-weight: bold;
+  font-size: 30px;
+  color:white;
+  background-color:#3dc1d3 ;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom:solid 7px #2d3436 ;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+#btn:hover {
+  opacity: 0.7;
+}
+
+#btn1:hover {
+  opacity: 0.7;
+}
+
+#btn2:hover {
+  opacity: 0.7;
+}
+
+#btn3:hover {
+  opacity: 0.7;
+}
+
+#btn4:hover {
+  opacity: 0.7;
+}
+
+#btn5:hover {
+  opacity: 0.7;
+}
+
+#btn:active {
+  position: relative;
+  top: 7px;
+  border-bottom: 0px;
+}
+
+#btn1:active {
+  position: relative;
+  top: 7px;
+  border-bottom: 0px;
+}
+
+#btn2:active {
+  position: relative;
+  top: 7px;
+  border-bottom: 0px;
+}
+
+#btn3:active {
+  position: relative;
+  top: 7px;
+  border-bottom: 0px;
+}
+
+#btn4:active {
+  position: relative;
+  top: 7px;
+  border-bottom: 0px;
+}
+
+#btn5:active {
+  position: relative;
+  top: 7px;
+  border-bottom: 0px;
+}
+
+#random_kazu_hyouzi{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#input_text {
+  display: none;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#hantei_text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#otsukare {
+  display: none;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#seikaisuu {
+  display: none;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+footer p {
+  color: white;
+  background-color: #ff7979;
+  font-size:45px;
+  padding:0 20px 20x 20px;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media(max-width:1000px){
+  h1 {
+    font-size:40px;
+  }
+
+  footer p {
+    font-size:30px;
+  }
+
+  #random_kazu_hyouzi{
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #input_text {
+    display: none;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #hantei_text {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #otsukare {
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #seikaisuu {
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+@media(max-width:670px){
+  .allwrap {
+    height: auto;
+  }
+
+  .text_1 {
+    font-size:20px;
+  }
+
+  .text_2 {
+    font-size: 17px;
+  }
+
+  #random_kazu_hyouzi{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #input_text {
+    display: none;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #hantei_text {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #otsukare {
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #seikaisuu {
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #btn1,#btn2,#btn3,#btn4,#btn5 {
+    width: 75%;
+    display: inline-block;
+    padding:20px;
+    margin-top: 15px;
+    margin-right:10px;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    background-color:#3dc1d3 ;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom:solid 7px #2d3436 ;
+    font-family: 'Amatic SC', cursive;
+  }
+}
