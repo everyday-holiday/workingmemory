@@ -1,0 +1,85 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Train your working memory!</title>
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Train your working memory!</h1>
+    </div><!-- /.container -->
+  </header>
+    
+  <main class="allwrap">
+    <div class="container">
+
+      <div class="start_message">
+        <p class="tutorial">
+          ゲームがスタートすると、ランダムな数字が4秒間表示されます。<br>
+          それを逆向きに覚えて入力欄に入力し、エンターキーを押してください。<br>
+          問題数は全部で5問です。<br>
+          ex)12345 →　54321 <br>
+          <br>
+          下から桁数を選んでね！
+        </p>
+
+
+        <div class="btn_box2">
+          <span id="btn1">6</span>
+
+          <span id="btn2">7</span>
+
+          <span id="btn3">8</span>
+
+          <span id="btn4">9</span>
+
+          <span id="btn5">10</span>
+        </div>
+      </div>
+
+      <p id="game_start_text">GAME START</p>
+      
+      <!--↓ボタン-->
+      <section class="center_contents2">
+        <p id="choice" class="text_1">ワーキングメモリーを鍛えよう！！</p>
+        <p class="text_2">下のボタンをクリックするとゲームが始まるよ！</p>
+        <div class="btn_box">
+          <span id="btn">START!</span>
+        </div>
+      </section>
+      <!--↑ボタン-->
+
+      <section class="center_contents">
+        <p id="choice" class="text_1">ワーキングメモリーを鍛えよう！！</p>
+        
+        <p id="mondai_count">--第1問--</p>
+    
+        <p id="random_kazu_hyouzi"></p>
+
+        <input type="text" id="input_text" minlength="4" maxlength="10" size="11" autocomplete="off">
+        <!--<input id="btn" type="button" value="送信">-->
+      </section>
+      <p id="hantei_text"></p>
+      <p id="otsukare">お疲れ様です！</p>
+      <p id="seikaisuu"></p>
+
+    </div><!-- /.container -->
+  </main>
+    
+  <footer>
+    <div class="container">
+      <p>Continuation is power.</p>
+    </div><!-- /.container -->
+  </footer>
+  <script src="practice.js"></script>
+</body>
+</html>
